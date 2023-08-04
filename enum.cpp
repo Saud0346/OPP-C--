@@ -17,7 +17,6 @@ public:
         
         for(int i =0;i<counter;i++)
             cout << i << " ";
-
     }
 };
 
