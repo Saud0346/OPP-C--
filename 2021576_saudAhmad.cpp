@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-//mynameissaud
+
 
 //struct for library management system
 struct library_sys
