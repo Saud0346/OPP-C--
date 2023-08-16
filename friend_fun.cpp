@@ -6,11 +6,11 @@ class myTime
     private:
     int a;
     
-    public:
-    friend int modify_a(int);
+   
+    friend void modify_a(int);
 };
 
-int modify_a(int x)
+void modify_a(int x)
 {
     myTime obj;
     obj.a = x;
@@ -19,6 +19,7 @@ int modify_a(int x)
 
 int main()
 {
+    myTime obj;
     modify_a(100);
 
 
